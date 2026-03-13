@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+
 function Header() {
 
   const [menu,setMenu] = useState(false)
@@ -7,7 +8,7 @@ function Header() {
   return (
     <header>
 
-      <img src="/lincovate-logo.png" alt="Lincovate Logo"/>
+      <img src={`${import.meta.env.BASE_URL}lincovate-logo.png`} alt="Lincovate Logo" />
 
       <nav className={menu ? "active" : ""}>
         <a href="#services">Services</a>
