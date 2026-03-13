@@ -8,19 +8,19 @@ function Contact(){
 
       <div className="socials">
 
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://www.instagram.com/lincovate4?utm_source=qr" target="_blank">
           <i className="fab fa-instagram"></i>
         </a>
 
-        <a href="https://tiktok.com" target="_blank">
+        <a href="https://www.tiktok.com/@lincovate" target="_blank">
           <i className="fab fa-tiktok"></i>
         </a>
 
-        <a href="https://linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/company/lincovate-tech/about/?viewAsMember=true" target="_blank">
           <i className="fab fa-linkedin"></i>
         </a>
 
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://www.facebook.com/share/1DvRKVNAWe/" target="_blank">
           <i className="fab fa-facebook"></i>
         </a>
 
