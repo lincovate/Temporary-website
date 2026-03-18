@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function NotFound() {
   return (
@@ -17,7 +17,7 @@ function NotFound() {
       <h1>404</h1>
       <h2>Oops! Page Not Found</h2>
       <p>The page you are looking for does not exist.</p>
-      <Link to="/" style={{
+      <HashLink smooth to="/" style={{
         marginTop: "20px",
         padding: "10px 20px",
         background: "#00bfa6",
@@ -26,7 +26,7 @@ function NotFound() {
         textDecoration: "none"
       }}>
         Go Home
-      </Link>
+      </HashLink>
     </div>
   );
 }
