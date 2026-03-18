@@ -49,6 +49,7 @@ padding:20px 10%;
 border-bottom:1px solid #222;
 position:sticky;
 top:0;
+z-index: 1000;
 background:rgba(0,0,0,0.8);
 backdrop-filter:blur(10px);
 }
@@ -207,6 +208,43 @@ transition:all 0.8s ease;
 opacity:1;
 transform:translateY(0);
 }
+
+/* CONTACT FORM */
+
+.contact-form{
+max-width:600px;
+margin:40px auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:15px;
+border-radius:10px;
+border:1px solid #222;
+background:#111;
+color:#fff;
+font-size:16px;
+outline:none;
+transition:0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+border-color:#00bfa6;
+box-shadow:0 0 10px rgba(0,191,166,0.3);
+}
+
+.contact-form button{
+border:none;
+cursor:pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* MOBILE */
 

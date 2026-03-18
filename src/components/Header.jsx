@@ -1,4 +1,6 @@
-import { useState } from "react"
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 
 function Header() {
@@ -8,12 +10,12 @@ function Header() {
   return (
     <header>
 
-      <img src={`${import.meta.env.BASE_URL}lincovate-logo.png`} alt="Lincovate Logo" />
+     <Link to="/"><img src={`${import.meta.env.BASE_URL}lincovate-logo.png`} alt="Lincovate Logo" /></Link>
 
       <nav className={menu ? "active" : ""}>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+          <HashLink smooth to="/#services" onClick={() => setMenu(false)}>Services</HashLink>
+        <HashLink smooth to="/#about" onClick={() => setMenu(false)}>About</HashLink>
+       <Link to="/contact">Contact</Link>
       </nav>
 
       <div

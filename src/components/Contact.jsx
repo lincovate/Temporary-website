@@ -5,6 +5,7 @@ function Contact(){
     <section id="contact" className="reveal">
 
       <h2>Connect With Us</h2>
+      <br />
 
       <div className="socials">
 
