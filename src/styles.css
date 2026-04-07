@@ -40,7 +40,9 @@ right:-100px;
 }
 
 /* HEADER */
-
+iframe {
+  max-width: 100%;
+}
 header{
 display:flex;
 justify-content:space-between;
@@ -210,6 +212,16 @@ transform:translateY(0);
 }
 
 /* CONTACT FORM */
+.Linking {
+  text-decoration: none;
+  color: #ccc;
+  word-break: break-word;
+  transition: 0.3s;
+}
+
+.Linking:hover {
+  color: #00bfa6;
+}
 
 .contact-form{
 max-width:600px;
@@ -279,4 +291,85 @@ display:block;
 font-size:2rem;
 }
 
+}
+/* GLASS CONTACT UPGRADE */
+
+.contact-glass {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.contact-glass h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-glass p {
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* Glass effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #222;
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 191, 166, 0.2);
+}
+
+/* Contact info */
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+  flex-wrap: wrap;
+}
+.info-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+.icon {
+  font-size: 18px;
+  min-width: 24px;
+}
+.info-item p {
+  margin: 0;
+  color: #ccc;
+}
+
+/* Status text */
+.status {
+  margin-top: 20px;
+  color: #00bfa6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }

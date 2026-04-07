@@ -1,12 +1,18 @@
 import { useEffect } from "react"
-import Header from "../../components/Header"
+
 import Hero from "../../components/Hero"
 import Services from "../../components/Services"
 import About from "../../components/About"
 import Contact from "../../components/Contact"
+import VideoLinks from "./video_links"
 import Footer from "../../components/Footer"
 
 function Homepage() {
+
+  // 🔝 Scroll to top on mount
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" })
+  }, [])
 
   useEffect(() => {
 
@@ -41,20 +47,11 @@ function Homepage() {
       <div className="glow glow1"></div>
       <div className="glow glow2"></div>
 
-      <Header/>
       <Hero/>
       <Services/>
       <About/>
+      <VideoLinks/>
       <Contact/>
-
-      <a
-        href="https://wa.me/254719656289"
-        target="_blank"
-        className="whatsapp"
-      >
-        <i className="fab fa-whatsapp"></i>
-      </a>
-
       <Footer/>
     </>
   )

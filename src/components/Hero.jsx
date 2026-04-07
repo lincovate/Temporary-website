@@ -11,7 +11,7 @@ function Hero(){
         We build powerful digital solutions that connect innovation with creativity.
       </p>
 
-      <a href="#contact" className="btn">
+      <a href="#appointment" className="btn">
         Start Your Project
       </a>
 
