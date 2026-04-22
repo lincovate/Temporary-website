@@ -1,0 +1,48 @@
+.preloader-overlay {
+  position: fixed;
+  inset: 0;
+  background: #0b0b0b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* CHAIN WRAPPER */
+.chain {
+  display: flex;
+  gap: 8px;
+}
+
+/* EACH LINK */
+.link {
+  width: 30px;
+  height: 12px;
+  border-radius: 6px;
+  animation: lock 0.8s ease-in-out infinite alternate;
+}
+
+/* COLORS */
+.red { background: #ff3b3b; }
+.green { background: #00c853; }
+.orange { background: #ff9800; }
+.teal { background: #00bcd4; }
+
+/* LOCK ANIMATION */
+@keyframes lock {
+  0% {
+    transform: translateY(-10px) rotate(-5deg);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* stagger effect */
+.link:nth-child(1) { animation-delay: 0s; }
+.link:nth-child(2) { animation-delay: 0.1s; }
+.link:nth-child(3) { animation-delay: 0.2s; }
+.link:nth-child(4) { animation-delay: 0.3s; }
