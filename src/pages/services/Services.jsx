@@ -5,14 +5,17 @@ import "./service.css";
 const servicesData = [
   {
     icon: "🎨",
-    title: "UI/UX Design",
-    desc: "Create stunning user interfaces with modern design principles.",
+    title: "UI/UX & Web Design",
+    desc: "Design intuitive, modern, and visually engaging websites that deliver seamless user experiences.",
     features: [
       "User Research & Analysis",
       "Wireframing & Prototyping",
+      "Responsive Web Design",
       "Visual Design & Branding",
-      "Responsive Design",
+      "Landing Page Design",
+      "Usability Optimization",
     ],
+    link: "/videos",
   },
   {
     icon: "💻",
@@ -24,6 +27,7 @@ const servicesData = [
       "Performance Optimization",
       "SEO Implementation",
     ],
+    link: "/websites",
   },
   {
     icon: "🧩",
@@ -46,6 +50,19 @@ const servicesData = [
       "App Store Optimization",
       "Maintenance & Updates",
     ],
+  },
+  {
+    icon: "🗣️",
+    title: "Consultation",
+    desc: "Get expert guidance across all our services. We help you choose the right solution, plan your project, and understand the best approach before starting.",
+    features: [
+      "Full Service Guidance (Design, Development, Apps, etc.)",
+      "Project Idea Evaluation",
+      "Technical & Design Direction",
+      "Cost & Timeline Estimation",
+      "Personalized Recommendations",
+    ],
+    link: "/consultation",
   },
   {
     icon: "🧑‍💻",
@@ -78,7 +95,6 @@ const servicesData = [
 const Services = () => {
   const navigate = useNavigate();
 
-  // 🔝 Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
@@ -87,8 +103,11 @@ const Services = () => {
     navigate("/appointment");
   };
 
-  const handleWebDevClick = () => {
-    navigate("/videos"); // 👈 goes to your videos page
+  // ✅ CLEAN UNIVERSAL CLICK HANDLER
+  const handleServiceClick = (service) => {
+    if (service.link) {
+      navigate(service.link);
+    }
   };
 
   return (
@@ -113,15 +132,15 @@ const Services = () => {
             {/* SERVICES GRID */}
             <section className="services-grid">
               {servicesData.map((service, index) => {
-                const isWebDev = service.title === "Web Development";
+                const isClickable = !!service.link;
 
                 return (
                   <div
                     className="service-card glass"
                     key={index}
-                    onClick={isWebDev ? handleWebDevClick : null}
+                    onClick={() => handleServiceClick(service)}
                     style={{
-                      cursor: isWebDev ? "pointer" : "default",
+                      cursor: isClickable ? "pointer" : "default",
                     }}
                   >
                     <div className="service-header">
@@ -136,6 +155,11 @@ const Services = () => {
                         <li key={i}>{item}</li>
                       ))}
                     </ul>
+
+                    {/* optional CTA hint */}
+                    {isClickable && (
+                      <p className="click-me pulse">Click to view →</p>
+                    )}
                   </div>
                 );
               })}
@@ -143,8 +167,11 @@ const Services = () => {
 
             {/* START NOW BUTTON */}
             <div className="start-now-wrapper">
-              <button className="start-now-btn glass" onClick={handleStartNow}>
-                Start Now
+              <button
+                className="start-now-btn glass"
+                onClick={handleStartNow}
+              >
+                Make Appointment
               </button>
             </div>
 

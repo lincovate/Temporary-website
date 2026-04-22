@@ -8,6 +8,13 @@ import Services from "./pages/services/Services";
 import AppointmentForm from "./pages/appointment/Appointment";
 import NotFound from "./pages/404error/NotFound";
 import Videos from "./pages/homepage/Videos";
+import Hotels from "./pages/Websites-templates/Hotels";
+import Categories from "./pages/Websites-templates/Websites";
+import ConsultationType from "./pages/services/Consultation/ConsultationType";
+import ConsultationMethod from "./pages/services/Consultation/ConsultationMethod";
+import ConsultationEmail from "./pages/services/Consultation/ConsultationEmail";
+import ConsultationWhatsApp from "./pages/services/Consultation/ConsultationWhatsApp";
+import ConsultationCall from "./pages/services/Consultation/ConsultationCall";
 
 function App() {
   return (
@@ -21,7 +28,16 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/appointment" element={<AppointmentForm />} />
         <Route path="/videos" element={<Videos />} />
-
+        <Route path="/Websites/Hotels" element={<Hotels />} />
+        <Route path="/Websites" element={<Categories />} />
+       
+         
+        <Route path="/consultation" element={<ConsultationType />} />
+        <Route path="/consultation/method" element={<ConsultationMethod />} />
+        <Route path="/consultation/email" element={<ConsultationEmail />} />
+        <Route path="/consultation/whatsapp" element={<ConsultationWhatsApp />} />
+        <Route path="/consultation/call" element={<ConsultationCall />} />
+     
         {/* Catch-all route for 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>

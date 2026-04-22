@@ -1,0 +1,144 @@
+.consultation-container {
+  padding: 40px 20px;
+  color: white;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.step h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* container for full cards */
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* FULL WIDTH CARD */
+.full-card {
+  width: 100%;
+  padding: 18px 20px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.05rem;
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.full-card:hover {
+  background: #00c8ff;
+  color: black;
+  transform: translateY(-2px);
+}
+
+/* buttons */
+.btn-consultaion {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 20px;
+  background: #00c8ff;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.email-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1e1e1e;
+  color: white;
+}
+
+.btn-consultaion {
+  padding: 12px 20px;
+  background: #00c8ff;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.full-card {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background: #1e1e1e;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.full-card:hover {
+  background: #00c8ff;
+  color: black;
+}
+
+.popup-overlay {
+  position: fixed;
+  inset: 0; /* replaces top/left/width/height */
+  background: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 99999; /* 🔥 ensures it's above everything */
+  backdrop-filter: blur(6px);
+}
+
+.popup-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 420px;
+
+  color: white;
+  text-align: center;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+
+  animation: popupIn 0.2s ease-out;
+  z-index: 100000;
+}
+
+@keyframes popupIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn.cancel {
+  background: gray;
+  flex: 1;
+}
+
+.btn.confirm {
+  background: #25D366;
+  flex: 1;
+}

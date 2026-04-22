@@ -13,8 +13,10 @@ function Header() {
 
       {/* Navigation */}
       <nav className={menu ? "active" : ""}>
+        
         <HashLink smooth to="/services" onClick={() => setMenu(false)}>Services</HashLink>
-        <HashLink smooth to="/about" onClick={() => setMenu(false)}>About</HashLink>
+        <HashLink smooth to="/websites" onClick={() => setMenu(false)}>Projects</HashLink>
+        <HashLink smooth to="/appointment" onClick={() => setMenu(false)}>Appointments</HashLink>
         <HashLink smooth to="/contact" onClick={() => setMenu(false)}>Contact</HashLink>
       </nav>
 

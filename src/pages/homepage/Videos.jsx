@@ -4,6 +4,15 @@ const videos = [
   "Y5a5rKPo-XE",
   "TeYm9RtodLU",
   "rGDp77VbX1M",
+  "3Esk1QzcibA",
+  "EN0My_eREIU",
+  "hLMMyq8S-N4",
+  "GMsxs2PcUpk",
+  "yux96QOd_64",
+  "GLcavLQCJwg",
+  "6GmolnDN2kU?",
+  "ztdGpnpkf2E",
+
 ];
 
 function Videos() {
@@ -25,7 +34,9 @@ function Videos() {
           </div>
         ))}
       </div>
+      <a href="#Websites" className="btn">Checkout the Website</a>
     </div>
+    
   );
 }
 
@@ -35,20 +46,20 @@ const styles = {
     textAlign: "center",
   },
   title: {
-    marginBottom: "20px",
+    marginBottom: "40px",
   },
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-    gap: "20px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
+    gap: "25px",
   },
   card: {
     width: "100%",
   },
   iframe: {
     width: "100%",
-    height: "200px",
-    borderRadius: "10px",
+    height: "300px",
+    borderRadius:"15px",
   },
 };
 
