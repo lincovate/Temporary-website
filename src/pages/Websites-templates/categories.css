@@ -1,7 +1,7 @@
 .categories-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 3fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  gap: 50px;
   padding: 40px;
 }
 

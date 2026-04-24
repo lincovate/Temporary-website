@@ -30,7 +30,7 @@ export default function ShowcaseTabs() {
   const [active, setActive] = useState(0);
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(true);
-  const [open, setOpen] = useState(window.innerWidth >= 768);
+  const [open, setOpen] = useState(window.innerWidth >= 769);
 
   // Carousel
   useEffect(() => {
