@@ -3,25 +3,29 @@ import "./website.css";
 
 const tabs = [
   {
-    name: "Hotels",
-    link: "https://hotel-cafe-house1.lincovate.com/menu",
+    name: "Hotels- Cafe House",
+    link: "https://hotel-cafe-house1.lincovate.com/",
     description:
       "Explore modern hotel booking experiences with intuitive navigation and elegant design.",
     images: [
       "/images/hotels1.png",
       "/images/hotels2.png",
       "/images/hotels3.png",
+      "/images/hotels4.png",
+      "/images/hotels5.png",
     ],
   },
   {
-    name: "Libraries",
-    link: "https://example.com",
+    name: "Restaurants- Stellas Cafe",
+    link: "https://stellascafe2.lincovate.com/",
     description:
-      "Digital libraries designed for accessibility, clarity, and seamless browsing.",
+      "Discover a world of culinary delights with our carefully curated selection of restaurants.",
     images: [
-      "/images/libraries1.jpg",
-      "/images/libraries2.jpg",
-      "/images/libraries3.jpg",
+      "/images/restaurants1.png",
+      "/images/restaurants2.png",
+      "/images/restaurants3.png",
+      "/images/restaurants4.png",
+      "/images/restaurants5.png",
     ],
   },
 ];

@@ -8,11 +8,11 @@ export const categories = [
     path: "/Websites/Hotels",
     images: [
       "/images/hotels1.png",
-      "/images/hotels2.png",
       "/images/hotels3.png",
-      "/images/hotels4.png",
-      "/images/hotels5.png",
-    ],
+      "/images/restaurants1.png",
+      "/images/restaurants3.png",
+      "/images/restaurants5.png",
+    ], 
   },
 //   {
 //     name: "Libraries",
