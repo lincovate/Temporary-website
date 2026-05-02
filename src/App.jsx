@@ -9,6 +9,7 @@ import AppointmentForm from "./pages/appointment/Appointment";
 import NotFound from "./pages/404error/NotFound";
 import Videos from "./pages/homepage/Videos";
 import Hotels from "./pages/Websites-templates/Hotels";
+import LMS from "./pages/Websites-templates/LMS";
 import Categories from "./pages/Websites-templates/Websites";
 import ConsultationType from "./pages/services/Consultation/ConsultationType";
 import ConsultationMethod from "./pages/services/Consultation/ConsultationMethod";
@@ -29,6 +30,7 @@ function App() {
         <Route path="/appointment" element={<AppointmentForm />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/Websites/Hotels" element={<Hotels />} />
+        <Route path="/Websites/LMS" element={<LMS />} />
         <Route path="/Websites" element={<Categories />} />
        
          

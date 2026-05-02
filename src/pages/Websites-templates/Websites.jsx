@@ -14,15 +14,17 @@ export const categories = [
       "/images/restaurants5.png",
     ], 
   },
-//   {
-//     name: "Libraries",
-//     path: "/category/libraries",
-//     images: [
-//       "/images/libraries1.jpg",
-//       "/images/libraries2.jpg",
-//       "/images/libraries3.jpg",
-//     ],
-//   },
+   {
+     name: "LMS",
+     path: "/Websites/LMS",
+     images: [
+       "/images/LMS/LMS1.png",
+       "/images/LMS/LMS6.png",
+       "/images/LMS/LMS7.png",
+       "/images/LMS/LMS4.png",
+       "/images/LMS/LMS5.png",
+     ],
+   },
 //   {
 //     name: "Restaurants",
 //     path: "/category/restaurants",
