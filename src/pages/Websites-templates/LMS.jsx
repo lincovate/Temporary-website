@@ -17,6 +17,20 @@ const tabs = [
       "/images/LMS/LMS7.png",
     ],
   },
+   {
+    name: "Class Register",
+    link: "https://class-register.g-lectricals.workers.dev/",
+    description:
+      "The register is used by class managers and is reflected directly in the google spreadsheet",
+    images: [
+      "/images/register/register.png",
+      "/images/register/register2.png",
+      "/images/register/register3.png",
+      "/images/register/register4.png",
+ 
+
+    ],
+  },
 ];
 
 export default function ShowcaseTabs() {
