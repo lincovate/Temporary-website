@@ -31,6 +31,23 @@ const tabs = [
 
     ],
   },
+   {
+    name: "Exam Portal",
+    link: "https://quizhub.lincovate.workers.dev/",
+    description:
+      "The examination portal allows teachers to set questions and students to answer them. Prevents students from copy pasting or taking pictures",
+    images: [
+      "/images/exam/lincovate1.png",
+      "/images/exam/lincovate2.png",
+      "/images/exam/lincovate3.png",
+      "/images/exam/lincovate4.png",
+       "/images/exam/lincovate5.png",
+      "/images/exam/lincovate6.png",
+
+ 
+
+    ],
+  },
 ];
 
 export default function ShowcaseTabs() {

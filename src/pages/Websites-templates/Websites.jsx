@@ -15,7 +15,7 @@ export const categories = [
     ], 
   },
    {
-     name: "LMS",
+     name: "Schools",
      path: "/Websites/LMS",
      images: [
        "/images/LMS/LMS1.png",
