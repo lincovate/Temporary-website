@@ -25,6 +25,17 @@ export const categories = [
        "/images/LMS/LMS5.png",
      ],
    },
+     {
+     name: "Real Estate",
+     path: "/Websites/RealEstate",
+     images: [
+       "/images/RealEstate/RealEstate1.png",
+       "/images/RealEstate/RealEstate6.png",
+       "/images/RealEstate/RealEstate7.png",
+       "/images/RealEstate/RealEstate4.png",
+       "/images/RealEstate/RealEstate5.png",
+     ],
+   },
 //   {
 //     name: "Restaurants",
 //     path: "/category/restaurants",

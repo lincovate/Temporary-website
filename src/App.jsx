@@ -11,6 +11,7 @@ import Videos from "./pages/homepage/Videos";
 import Hotels from "./pages/Websites-templates/Hotels";
 import LMS from "./pages/Websites-templates/LMS";
 import Categories from "./pages/Websites-templates/Websites";
+import RealEstate from "./pages/Websites-templates/RealEstate";
 import ConsultationType from "./pages/services/Consultation/ConsultationType";
 import ConsultationMethod from "./pages/services/Consultation/ConsultationMethod";
 import ConsultationEmail from "./pages/services/Consultation/ConsultationEmail";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/Websites/Hotels" element={<Hotels />} />
         <Route path="/Websites/LMS" element={<LMS />} />
+        <Route path="/Websites/RealEstate" element={<RealEstate />} />
         <Route path="/Websites" element={<Categories />} />
        
          

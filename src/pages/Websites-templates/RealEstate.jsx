@@ -3,48 +3,21 @@ import "./website.css";
 
 const tabs = [
   {
-    name: "Learning Hub",
-    link: "https://learnhub1.lincovate.com/",
+    name: "Real Estate",
+    link: "https://realestate0.lincovate.com/",
     description:
       "Enhance your learning experience with our interactive LMS platform.",
     images: [
-      "/images/LMS/LMS1.png",
-      "/images/LMS/LMS2.png",
-      "/images/LMS/LMS3.png",
-      "/images/LMS/LMS4.png",
-      "/images/LMS/LMS5.png",
-      "/images/LMS/LMS6.png",
-      "/images/LMS/LMS7.png",
+      "/images/RealEstate/RealEstate1.png",
+      "/images/RealEstate/RealEstate2.png",
+      "/images/RealEstate/RealEstate3.png",
+      "/images/RealEstate/RealEstate4.png",
+      "/images/RealEstate/RealEstate5.png",
+      "/images/RealEstate/RealEstate6.png",
+      "/images/RealEstate/RealEstate7.png",
     ],
   },
-   {
-    name: "Class Register",
-    link: "https://class-register.g-lectricals.workers.dev/",
-    description:
-      "The register is used by class managers and is reflected directly in the google spreadsheet",
-    images: [
-      "/images/register/register.png",
-      "/images/register/register2.png",
-      "/images/register/register3.png",
-      "/images/register/register4.png",
- 
-
-    ],
-  },
-   {
-    name: "Exam Portal",
-    link: "https://quizhub.lincovate.com",
-    description:
-      "The examination portal allows teachers to set questions and students to answer them. Prevents students from copy pasting or taking pictures",
-    images: [
-      "/images/exam/lincovate1.png",
-      "/images/exam/lincovate2.png",
-      "/images/exam/lincovate3.png",
-      "/images/exam/lincovate4.png",
-       "/images/exam/lincovate5.png",
-      "/images/exam/lincovate6.png",
-    ],
-  },
+   
 ];
 
 export default function ShowcaseTabs() {
