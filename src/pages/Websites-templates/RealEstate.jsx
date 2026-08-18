@@ -3,7 +3,7 @@ import "./website.css";
 
 const tabs = [
   {
-    name: "Real Estate",
+    name: "Real Estate 1",
     link: "https://realestate0.lincovate.com/",
     description:
       "Search for your dream house listing in the templates below.",
@@ -18,7 +18,7 @@ const tabs = [
     ],
   },
      {
-    name: "Real Estate",
+    name: "Estates 2",
     link: "https://estate1.lincovate.com/",
     description:
       "Search for your dream house listing in the templates below enter and see what you like.",
