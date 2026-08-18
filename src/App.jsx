@@ -17,6 +17,7 @@ import ConsultationMethod from "./pages/services/Consultation/ConsultationMethod
 import ConsultationEmail from "./pages/services/Consultation/ConsultationEmail";
 import ConsultationWhatsApp from "./pages/services/Consultation/ConsultationWhatsApp";
 import ConsultationCall from "./pages/services/Consultation/ConsultationCall";
+import CompanyRegistrationInfo from "./pages/about/CompanyRegistrationInfo";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         <Route path="/Websites/LMS" element={<LMS />} />
         <Route path="/Websites/RealEstate" element={<RealEstate />} />
         <Route path="/Websites" element={<Categories />} />
-       
+       <Route path="/company-registration" element={<CompanyRegistrationInfo />} />
          
         <Route path="/consultation" element={<ConsultationType />} />
         <Route path="/consultation/method" element={<ConsultationMethod />} />

@@ -46,14 +46,14 @@ const About = () => {
   const content = showMission
     ? {
         title: "Our Mission",
-        text: `We create digital experiences that feel effortless—and leave a lasting impression. 
+        text: `We create digital experiences that feel effortless and leave a lasting impression. 
         By blending bold, innovative design with seamless functionality and accessibility, 
-        we craft products that not only look stunning but work beautifully.`,
+        to not only look stunning but work beautifully.`,
       }
     : {
         title: "Our Vision",
         text: `To redefine digital experiences by making them more intuitive, immersive, and 
-        human-centered—where design and technology work seamlessly together.`,
+        human-centered where design and technology work seamlessly together.`,
       };
 
   return (

@@ -6,7 +6,7 @@ const tabs = [
     name: "Real Estate",
     link: "https://realestate0.lincovate.com/",
     description:
-      "Enhance your learning experience with our interactive LMS platform.",
+      "Search for your dream house listing in the templates below.",
     images: [
       "/images/RealEstate/RealEstate1.png",
       "/images/RealEstate/RealEstate2.png",
@@ -17,7 +17,21 @@ const tabs = [
       "/images/RealEstate/RealEstate7.png",
     ],
   },
-   
+     {
+    name: "Real Estate",
+    link: "https://estate1.lincovate.com/",
+    description:
+      "Search for your dream house listing in the templates below enter and see what you like.",
+    images: [
+      "/images/Estate1/RealEstate1.png",
+      "/images/Estate1/RealEstate2.png",
+      "/images/Estate1/RealEstate3.png",
+      "/images/Estate1/RealEstate4.png",
+      "/images/Estate1/RealEstate5.png",
+      "/images/Estate1/RealEstate6.png",
+      "/images/Estate1  /RealEstate7.png",
+    ],
+  },
 ];
 
 export default function ShowcaseTabs() {

@@ -1,0 +1,127 @@
+.CompanyRegistrationInfo-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f6f8fc;
+}
+
+/* TITLE */
+.CompanyRegistrationInfo-title {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* CARD */
+.CompanyRegistrationInfo-card {
+  background: #ffffff;
+  padding: 22px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADINGS */
+.CompanyRegistrationInfo-sectionTitle {
+  color: #1f3c88;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.CompanyRegistrationInfo-subTitle {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* TEXT */
+.CompanyRegistrationInfo-text {
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* HIGHLIGHTS */
+.CompanyRegistrationInfo-highlight {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a7a2f;
+}
+
+.CompanyRegistrationInfo-bigText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* NOTES */
+.CompanyRegistrationInfo-note {
+  color: #555;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* WARNING */
+.CompanyRegistrationInfo-warning {
+  color: #b00020;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* LISTS — FIX (THIS WAS THE MAIN ISSUE) */
+.CompanyRegistrationInfo-list {
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.CompanyRegistrationInfo-list li {
+  margin-bottom: 8px;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* TABLE — FIX (MAKES IT VISIBLE PROPERLY) */
+.CompanyRegistrationInfo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* HEADER */
+.CompanyRegistrationInfo-table th {
+  background: #1f3c88;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* CELLS */
+.CompanyRegistrationInfo-table td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px;
+  color: #222;
+}
+
+/* STRIPED EFFECT (IMPORTANT FOR VISIBILITY) */
+.CompanyRegistrationInfo-table tbody tr:nth-child(even) {
+  background: #f2f5ff;
+}
+
+/* HOVER EFFECT */
+.CompanyRegistrationInfo-table tbody tr:hover {
+  background: #e9efff;
+}
+
+/* SPECIAL CARD */
+.CompanyRegistrationInfo-highlightCard {
+  border-left: 6px solid #1f3c88;
+}
