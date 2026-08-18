@@ -23,13 +23,13 @@ const tabs = [
     description:
       "Search for your dream house listing in the templates below enter and see what you like.",
     images: [
-      "/images/Estate1/RealEstate1.png",
-      "/images/Estate1/RealEstate2.png",
-      "/images/Estate1/RealEstate3.png",
-      "/images/Estate1/RealEstate4.png",
-      "/images/Estate1/RealEstate5.png",
-      "/images/Estate1/RealEstate6.png",
-      "/images/Estate1  /RealEstate7.png",
+      "/images/estate1/RealEstate1.png",
+      "/images/estate1/RealEstate2.png",
+      "/images/estate1/RealEstate3.png",
+      "/images/estate1/RealEstate4.png",
+      "/images/estate1/RealEstate5.png",
+      "/images/estate1/RealEstate6.png",
+      "/images/estate1/RealEstate7.png",
     ],
   },
 ];
