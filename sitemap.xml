@@ -10,4 +10,29 @@
       <lastmod>2026-03-18</lastmod>
       <priority>0.8</priority>
    </url>
+      <url>
+      <loc>https://www.lincovate.com/#/project</loc>
+      <lastmod>2026-03-18</lastmod>
+      <priority>0.9</priority>
+   </url>
+      <url>
+      <loc>https://www.lincovate.com/#/about</loc>
+      <lastmod>2026-03-18</lastmod>
+      <priority>0.7</priority>
+   </url>
+      <url>
+      <loc>https://www.lincovate.com/#/services</loc>
+      <lastmod>2026-03-18</lastmod>
+      <priority>0.8</priority>
+   </url>
+      <url>
+      <loc>https://www.lincovate.com/#/appointment</loc>
+      <lastmod>2026-03-18</lastmod>
+      <priority>0.9</priority>
+   </url>
+      <url>
+      <loc>https://www.lincovate.com/#/consultation</loc>
+      <lastmod>2026-03-18</lastmod>
+      <priority>0.7</priority>
+   </url>
 </urlset>
