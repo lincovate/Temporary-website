@@ -18,6 +18,14 @@ function Header() {
         <HashLink smooth to="/websites" onClick={() => setMenu(false)}>Projects</HashLink>
         <HashLink smooth to="/appointment" onClick={() => setMenu(false)}>Appointments</HashLink>
         <HashLink smooth to="/contact" onClick={() => setMenu(false)}>Contact</HashLink>
+          <a
+          href="https://weblist.lincovate.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setMenu(false)}
+        >
+          Previews
+        </a>
       </nav>
 
       {/* Mobile menu toggle */}
